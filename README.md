@@ -1,6 +1,6 @@
 # Docker-based Drupal stack
 
-[![Build Status](https://travis-ci.org/wodby/docker4drupal.svg?branch=master)](https://travis-ci.org/wodby/docker4drupal)
+[![Build Status](https://github.com/wodby/docker4drupal/workflows/Run%20tests/badge.svg)](https://github.com/wodby/docker4drupal/actions)
 
 ## Introduction
 
@@ -33,7 +33,7 @@ The Drupal stack consist of the following containers:
 | [Kibana]        | 7, 6                   | `kibana`        | [wodby/kibana]                     |         |
 | [OpenSMTPD]     | 6.0                    | `opensmtpd`     | [wodby/opensmtpd]                  |         |
 | [Mailhog]       | latest                 | `mailhog`       | [mailhog/mailhog]                  | ✓       |
-| [AthenaPDF]     | 2.10.0                 | `athenapdf`     | [arachnysdocker/athenapdf-service] |         |
+| [AthenaPDF]     | 2.16.0                 | `athenapdf`     | [arachnysdocker/athenapdf-service] |         |
 | [Rsyslog]       | latest                 | `rsyslog`       | [wodby/rsyslog]                    |         |
 | [Blackfire]     | latest                 | `blackfire`     | [blackfire/blackfire]              |         |
 | [Webgrind]      | 1                      | `webgrind`      | [wodby/webgrind]                   |         |
